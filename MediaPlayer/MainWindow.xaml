@@ -6,7 +6,15 @@
         xmlns:local="clr-namespace:MediaPlayer"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FFEBE39B">
+        <MediaElement HorizontalAlignment="Left" Height="330" Margin="43,54,0,0" VerticalAlignment="Top" Width="659"/>
+        <Button x:Name="btnStop" Content="停止" HorizontalAlignment="Left" Margin="286,392,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnOpenFile" Content="開啟檔案" HorizontalAlignment="Left" Margin="581,23,0,0" VerticalAlignment="Top" Width="80" Height="23"/>
+        <Button x:Name="btnExit" Content="離開" HorizontalAlignment="Left" Margin="403,392,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnPlay" Content="播放" HorizontalAlignment="Left" Margin="70,392,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnPause" Content="暫停" HorizontalAlignment="Left" Margin="173,392,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="43,23,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="506"/>
+
+
     </Grid>
 </Window>
